@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas6</title>
+    <link rel="stylesheet" href="css/jsdasar.css" />
+  </head>
+  <body>
+    <button id="btnclick" style="background-color: rgb(255, 196, 0); border: none; color: rgb(255, 252, 249)">Click Me</button>
+    <br />
+    <br /><br />
+
+    <form action="" method="">
+      <label for="teks">Apa kamu berkenan belajar bersamaku?</label><br /><br />
+      <input type="text" name="teks" id="teks" placeholder="Iya/Tidak" /><br />
+      <br />
+      <button type="submit" id="btn-confirm">Konfirmasi</button>
+    </form>
+    <br />
+
+    <div>
+      <h3>Perulangan</h3>
+      <div>
+        <label for="">Ketik Sesuatu</label>
+        <input type="text" id="perulangan" />
+        <button id="btn-perulangan">Show</button><br />
+        <h3 id="show-perulangan"></h3>
+      </div>
+    </div>
+    <br />
+
+    <div>
+      <h3>Operator Aritmatika</h3>
+      <label for="">Masukkan Bilangan</label>
+      <input type="text" id="angka1" style="width: 10px" />
+      <br /><br />
+      <label for="">Masukkan Bilangan</label>
+      <input type="text" id="angka2" style="width: 10px" />
+      <br /><br />
+      <button onclick="tambah()">+</button>
+      <button onclick="kurang()">-</button>
+      <button onclick="kali()">x</button>
+      <button onclick="bagi()">:</button><br /><br />
+      <label for="">Hasil</label>
+      <input type="text" id="hasil" style="width: 10px" />
+      <br /><br />
+    </div>
+    <br />
+
+    <script src="js/script.js"></script>
+    <a href="index.html">
+      <button>Home</button>
+    </a>
+  </body>
+</html>

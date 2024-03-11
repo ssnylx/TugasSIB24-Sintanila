@@ -1,0 +1,58 @@
+<html>
+  <form action="a" method="get">
+    <label for="nama">Nama</label> <br />
+    <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" class="form-input" />
+    <br />
+    <br />
+
+    <label for="email">Email</label> <br />
+    <input type="email" id="email" name="email" placeholder="Email Aktif" class="form-input" />
+    <br /><br />
+
+    <label for="nohp">Nomor HP</label><br />
+    <input type="tel" name="nohp" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="No HP Aktif" class="form-input" />
+    <br /><br />
+
+    <label for="">Jenis Kelamin</label> <br />
+    <input type="radio" id="laki-laki" name="jeniskelamin" value="laki-laki" />
+    <label for="laki-laki">Laki-laki</label>
+    <br />
+    <input type="radio" name="jeniskelamin" id="perempuan" />
+    <label for="perempuan">Perempuan</label>
+    <br /><br />
+
+    <label for="skema">Prodi</label><br />
+    <select name="skema" id="skema">
+      <option value="">Pilih</option>
+      <option value="teknikinformastika">Teknik Informatika</option>
+      <option value="sisteminformasi">Sistem Informasi</option>
+      <option value="manajemen">Manajemen</option>
+      <option value="akuntansi">Akuntansi</option>
+    </select>
+    <br /><br />
+
+    <label for="">Hobi:</label><br />
+    <input type="checkbox" id="html" name="hobi" value="hobi" />
+    <label for="hobi">Membaca</label>
+    <br />
+    <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+    <label for="hobi">Menulis</label>
+    <br />
+    <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+    <label for="hobi">Menyanyi</label>
+    <br />
+    <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+    <label for="hobi">Olahraga</label>
+    <br /><br />
+
+    <label for="alamat">Alamat</label><br />
+    <textarea name="alamat" id="alamat" cols="30" rows="4"></textarea>
+    <br /><br />
+
+    <label for="foto">Foto Diri</label> <br />
+    <input type="file" id="foto" name="foto" accept=".jpg, .png, .jpeg" />
+    <br />
+    <br />
+    <input type="submit" value="Daftar" /><br /><br />
+  </form>
+</html>

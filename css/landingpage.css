@@ -119,6 +119,21 @@ a.tbljs:hover {
   background: #af1e2f;
   text-decoration: none;
 }
+
+a.tblld {
+  background: #0f0e0d;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tblld:hover {
+  background: #af1e2f;
+  text-decoration: none;
+}
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px;

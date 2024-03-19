@@ -8,7 +8,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fafafa;
 }
 
 .wrapper {
@@ -63,6 +62,25 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #0a0a0a;
+  width: 100%;
+  line-height: 50px;
+}
 a.tbldftr {
   background: #e0ab8c;
   border-radius: 20px;
@@ -106,13 +124,16 @@ a.tbljsdsr:hover {
   text-decoration: none;
 }
 
+#contact {
+  background: #e0ab8c;
+  padding: 50px 0px 50px 0px;
+}
+
 .footer {
   width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0px 50px 0px;
-  background: #e0ab8c;
   margin: auto;
 }
 
@@ -120,6 +141,14 @@ a.tbljsdsr:hover {
   width: 20%;
   margin: 0 auto;
 }
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
 h3 {
   font-family: 'comic sans ms';
   font-weight: 800;
@@ -129,6 +158,46 @@ h3 {
   width: 100%;
   line-height: 50px;
 }
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .slides {
   width: 100%;
   position: relative;

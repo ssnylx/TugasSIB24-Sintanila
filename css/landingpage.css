@@ -133,6 +133,7 @@ a.tbljsdsr:hover {
   width: 100%;
   position: relative;
   display: flex;
+  background-color: #e0ab8c;
   flex-wrap: wrap;
   margin: auto;
 }
@@ -187,6 +188,7 @@ h3 {
 
   section {
     display: block;
+    flex-direction: column;
   }
 
   section img {

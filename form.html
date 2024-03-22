@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+
+  <body>
+    <center>
+      <h1>Form Pendaftaran</h1>
+    </center>
+
+    <form action="a" method="get">
+      <div class="kolom">
+        <div>
+          <label for="nama">Nama</label><br />
+          <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" />
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input type="email" name="email" id="email" placeholder="Email Aktif" />
+        </div>
+      </div>
+
+      <div class="kolom">
+        <div>
+          <label for="no_hp">Email</label><br />
+          <input type="number" name="no_hp" id="no_hp" placeholder="No. HP Aktif" />
+        </div>
+        <div>
+          <label for="prodi">Program Studi</label>
+          <br />
+          <select name="prodi" id="prodi">
+            <option value="" disabled selected>Pilih</option>
+            <option value="Teknik Informatika">Sistem Informasi</option>
+            <option value="Teknik Industri">Teknik Informatika</option>
+            <option value="Teknik Mesin">Hukum</option>
+            <option value="Teknik Elektro">Manajemen</option>
+            <option value="Teknik Mekatronika">Teknik Elektro</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="kolom">
+        <div class="isi-kolom">
+          <label for="">Jenis Kelamin</label>
+          <br />
+          <div style="margin: 0px; padding: 0px">
+            <input type="radio" name="jenis_kelamin" id="laki-laki" value="laki-laki" />
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" name="jenis_kelamin" id="perempuan" value="perempuan" />
+            <label for="perempuan">Perempuan</label>
+          </div>
+          <br />
+
+          <label for="">Hobi</label>
+          <br />
+          <div>
+            <input type="checkbox" name="hobi" id="membaca" value="membaca" />
+            <label for="membaca">Membaca</label>
+            <input type="checkbox" name="hobi" id="menulis" value="menulis" />
+            <label for="menulis">Menulis</label>
+          </div>
+          <br />
+          <div>
+            <input type="checkbox" name="hobi" id="menyanyi" value="menyanyi" />
+            <label for="menyanyi">Menyanyi</label>
+            <input type="checkbox" name="hobi" id="olahraga" value="olahraga" />
+            <label for="olahraga">Olahraga</label>
+          </div>
+        </div>
+        <div>
+          <label for="alamat">Alamat : </label>
+          <br />
+          <textarea name="alamat" id="alamat" cols="35" rows="10"></textarea>
+          <br />
+        </div>
+      </div>
+
+      <div class="kolom">
+        <div>
+          <label for="foto_diri">Foto Diri</label>
+          <br />
+          <input type="file" name="foto_diri" id="foto_diri" />
+        </div>
+        <center>
+          <div class="tbldftr">
+            <input type="submit" value="Daftar" />
+          </div>
+        </center>
+
+        <p><a href="index.html" class="tblhome">Beranda</a></p>
+      </div>
+    </form>
+  </body>
+</html>

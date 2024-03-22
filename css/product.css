@@ -1,0 +1,24 @@
+* {
+  font-family: 'comic sans ms';
+}
+
+#produk {
+  width: 100px;
+  border-collapse: collapse;
+}
+#produk th,
+#produk td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+#produk th {
+  background-color: brown;
+  font-weight: bold;
+}
+#produk tr:nth-child(even) {
+  background-color: aquamarine;
+}
+#produk tbody tr:hover {
+  background-color: bisque;
+}

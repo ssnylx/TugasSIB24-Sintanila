@@ -81,6 +81,9 @@ h2 {
   width: 100%;
   line-height: 50px;
 }
+p {
+  margin-right: 30px;
+}
 a.tbldftr {
   background: #e0ab8c;
   border-radius: 20px;

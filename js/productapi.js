@@ -13,7 +13,7 @@ fetch(endpoint)
                 <td> ${data_product.jumlah} </td>
                 <td> ${data_product.harga} </td>
                 <td>
-                    <a href="#" class="tbledit" onclick="edit_data('${data_product._id}')"> Edit </a>
+                    <a href="#" class="tbledit" onclick="edit_data('${data_product._id}')"> Edit </a><br>
                     <a href="#" class="tbldelete" onclick="delete_data('${data_product._id}')"> Hapus </a>
                 </td>
             </tr>

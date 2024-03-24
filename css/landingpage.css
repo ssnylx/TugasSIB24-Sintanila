@@ -162,6 +162,18 @@ h3 {
   width: 100%;
   line-height: 50px;
 }
+a.tbl1,
+.tbl2,
+.tbl3 {
+  background: #af1e2f;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 991.98px) {
   .wrapper {
     width: 90%;

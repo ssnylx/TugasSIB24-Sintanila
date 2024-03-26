@@ -44,7 +44,7 @@ h1 {
 }
 
 form {
-  padding: 15px;
+  padding: 25px;
 }
 
 label {
@@ -73,9 +73,7 @@ input {
 .tblupdate {
   background-color: #000000;
 }
-table {
-  border-radius: 10px;
-}
+
 .error {
   display: none;
   width: 100%;
@@ -100,19 +98,20 @@ td {
   padding: 5px;
 }
 
-.tbledit:hover,
-.tbldelete:hover,
 .tbltambah:hover,
 .tblupdate:hover {
   background-color: darkgray;
 }
 
 .tbledit {
-  background-color: #e48282;
   color: #000000;
+  background-color: #ff7ead;
+  border-radius: 20px;
 }
 .tbldelete {
-  background-color: #e48282;
+  background-color: #f50202;
+  color: #000000;
+  border-radius: 20px;
 }
 
 h2 {

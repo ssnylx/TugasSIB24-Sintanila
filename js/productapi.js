@@ -1,4 +1,4 @@
-let endpoint = 'https://crudcrud.com/api/e06e0c1da12e49028fdeb61bf9cb2ce6/apiproductss/';
+let endpoint = 'https://crudcrud.com/api/630f85e4a78c48bcaaf7defe62ff200b/apiproductss/';
 
 // tabel
 fetch(endpoint)
@@ -23,23 +23,6 @@ fetch(endpoint)
   .catch((error) => {
     document.querySelector('.error').innerText = error.message;
     document.querySelector('.error').style.display = 'block';
-  });
-
-//card
-fetch(endpoint)
-  .then((response) => response.json())
-  .then((res) => {
-    let datas = res;
-
-    datas.forEach((product_item) => {
-      document.getElementById('produk').innerHTML += `
-        <div class="card">
-            <h3> ${product_item.nama_produk} </h3>
-            <p> Rp. ${product_item.harga} </p>
-            <h6> Jumlah : ${product_item.jumlah} </h6>
-        </div>
-        `;
-    });
   });
 
 //tambah
@@ -118,3 +101,20 @@ function delete_data(id_product) {
     window.location.reload();
   });
 }
+
+//card
+fetch(endpoint)
+  .then((response) => response.json())
+  .then((res) => {
+    let datas = res;
+
+    datas.forEach((product_item) => {
+      document.getElementById('produk').innerHTML += `
+        <div class="card">
+            <h3> ${product_item.nama_produk} </h3>
+            <p> Rp. ${product_item.harga} </p>
+            <h6> Jumlah : ${product_item.jumlah} </h6>
+        </div>
+        `;
+    });
+  });

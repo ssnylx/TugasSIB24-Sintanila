@@ -77,16 +77,15 @@ input {
 .error {
   display: none;
   width: 100%;
+  color: #f50202;
   margin: 15px 0px;
   padding: 5px 0px;
   text-align: center;
-  background-color: #fdfdfd;
 }
 
 table {
   width: 100%;
   text-align: center;
-  border: 1px solid black;
 }
 
 thead {
@@ -100,7 +99,7 @@ td {
 
 .tbltambah:hover,
 .tblupdate:hover {
-  background-color: darkgray;
+  background-color: rgb(255, 60, 174);
 }
 
 .tbledit {
